@@ -3,7 +3,7 @@
 A modern, highly interactive personal portfolio website built from scratch to showcase frontend development skills. 
 
 ## 🚀 Live Demo
-*portfolio link*
+[*portfolio link*](https://arshiyan0-portfolio.netlify.app/)
 
 ## ✨ Key Features
 * **Dynamic API Integration:** Automatically fetches and displays live project data directly from the GitHub API.
@@ -19,3 +19,4 @@ A modern, highly interactive personal portfolio website built from scratch to sh
 ## 💡 What I Learned
 
 Building this project solidified my understanding of how HTML, CSS, and JS interact. I transitioned from hard-coding static data to working with asynchronous JavaScript (`async/await`) to fetch real-world API data. I also mastered using CSS variables for complex theming.
+
