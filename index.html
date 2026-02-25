@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><button id="theme-btn" class="theme-toggle">🌙</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm [Your Name]</h1>
+                <h2>Frontend Developer</h2>
+                
+                <p>I build <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </section>
+        <section id="about" class="about-section">
+            <h2 class="section-title">Skills & Education</h2>
+            
+            <div class="about-container">
+                <div class="skills">
+                    <h3>My Skills</h3>
+                    <ul class="skill-list">
+                        <li class="hidden">HTML5 & Semantic Structure</li>
+                        <li class="hidden">CSS3 & Flexbox Layouts</li>
+                        <li class="hidden">JavaScript & DOM Manipulation</li>
+                        <li class="hidden">Responsive Web Design</li>
+                    </ul>
+                </div>
+        
+                <div class="education">
+                    <h3>Education</h3>
+                    
+                    <div class="edu-item">
+                        <h4>Frontend Development Bootcamp</h4>
+                        <p>Tech Academy | 2024 - Present</p>
+                        <p>Learning modern web architecture, interactive UI design, and advanced CSS techniques.</p>
+                    </div>
+        
+                    <div class="edu-item">
+                        <h4>University Degree</h4>
+                        <p>University Name | 2019 - 2023</p>
+                    </div>
+                    <div class="edu-item hidden">
+                        <h4>Frontend Development Bootcamp</h4>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">My Projects</h2>
+            
+            <div class="filter-menu">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="css">HTML/CSS</button>
+                <button class="filter-btn" data-filter="js">JavaScript</button>
+            </div>
+            <section id="projects" class="projects-section">
+                <h2 class="section-title">My Live GitHub Projects</h2>
+                
+                <div class="project-grid" id="api-grid">
+                    </div>
+            </section>
+        </section>
+    </main>
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span> <img id="modal-img" src="" alt="Project Image">
+            <h3 id="modal-title">Project Title</h3>
+            <p id="modal-desc">Project description goes here.</p>
+            <a href="#" class="cta-button">View Live Project</a>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
